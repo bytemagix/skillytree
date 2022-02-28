@@ -5,7 +5,7 @@ const SearchBox = () => {
       <input
         type="text"
         id="skill"
-        placeholder="SEARCH A SKILL"
+        placeholder="SEARCH A SKILLY"
         className="w-[325px] rounded-3xl border-2 py-1 px-4 tracking-widest"
       />
       <span className="absolute right-3 top-2">
