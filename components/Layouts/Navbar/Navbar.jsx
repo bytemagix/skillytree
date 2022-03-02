@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import SearchBox from './Searchbox'
-import NavbarButton from '../Utils/Buttons/NavbarButton'
+import NavbarButton from '../../Utils/Buttons/NavbarButton'
 
 const Navbar = () => {
   return (
@@ -21,9 +21,9 @@ const Navbar = () => {
           <SearchBox />
         </div>
         <div className="mx-4 hidden h-5 w-[26px] flex-col items-end justify-between sm:flex">
-          <span className="h-[3px] w-[26px] bg-gray-600"></span>
-          <span className="h-[3px] w-[20px] bg-gray-600"></span>
-          <span className="h-[3px] w-[26px] bg-gray-600"></span>
+          <span className="h-[3px] w-[26px] bg-black"></span>
+          <span className="h-[3px] w-[20px] bg-black"></span>
+          <span className="h-[3px] w-[26px] bg-black"></span>
         </div>
         <div className="hidden px-4 sm:block">
           <span className="text-xl font-bold">Log In</span>
