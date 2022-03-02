@@ -6,6 +6,7 @@ import Register from '../components/Home/Register/Register'
 import Landing from '../components/Home/Landing/Landing'
 import Landing2 from '../components/Home/Landing/Landing2'
 import Landing3 from '../components/Home/Landing/Landing3'
+import Steps from '../components/Home/Steps/Steps'
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <Landing />
       <Landing2 />
       <Landing3 />
+      <Steps />
     </div>
   )
 }
