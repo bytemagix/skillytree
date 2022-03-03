@@ -7,6 +7,7 @@ import Landing from '../components/Home/Landing/Landing'
 import Landing2 from '../components/Home/Landing/Landing2'
 import Landing3 from '../components/Home/Landing/Landing3'
 import Steps from '../components/Home/Steps/Steps'
+import Affiliation from '../components/Home/Affiliation/Affiliation'
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <Landing2 />
       <Landing3 />
       <Steps />
+      <Affiliation />
     </div>
   )
 }

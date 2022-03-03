@@ -80,7 +80,7 @@ const DesktopView = () => {
       <div className="relative flex basis-1/2 items-end">
         <div className="relative h-[80vh] w-full">
           <Image
-            src="/surprised-happy-girl-desktop.png"
+            src="/landing3_desktop.png"
             layout="fill"
             objectFit="contain"
           />

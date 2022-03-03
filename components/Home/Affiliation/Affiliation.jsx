@@ -43,21 +43,29 @@ const DesktopView = () => {
     <div className="h-screen w-full">
       <div className="flex h-[30vh] flex-col items-center justify-center text-[36px]  font-[700] leading-[51px]">
         <div>
-          <span>YOUR NEW SKILL IS JUST</span>
+          <span>TRUSTED BY</span>&nbsp;
+          <span className="text-pink">100+</span>&nbsp;
+          <span>LEADING UNIVERSITIES</span>
         </div>
         <div>
-          <span className="text-pink">4 STEPS</span>
-          <span> AHEAD!!</span>
+          <span>AND COMPANIES</span>
         </div>
       </div>
-      <div className="relative h-[70vh] w-full">
-        <Image src="/steps_desktop.png" layout="fill" objectFit="contain" />
+      <div className="relative h-[60vh] w-full">
+        <Image
+          src="/affiliation_desktop.png"
+          layout="fill"
+          objectFit="contain"
+        />
+      </div>
+      <div>
+        <CtaButton label="Register" />
       </div>
     </div>
   )
 }
 
-const Steps = (props) => {
+const Affiliation = (props) => {
   return (
     <div className="h-screen w-full">
       <div className="block sm:hidden">
@@ -70,4 +78,4 @@ const Steps = (props) => {
   )
 }
 
-export default Steps
+export default Affiliation
