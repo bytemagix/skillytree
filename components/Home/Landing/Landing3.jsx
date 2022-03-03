@@ -31,21 +31,13 @@ const MobileView = () => {
         </div>
       </div>
       <div className="relative min-h-[70vh]">
-        <Image
-          src="/Images/Homepage/landing_3_mobile.png"
-          layout="fill"
-          objectFit="contain"
-        />
+        <Image src="/landing_3_mobile.png" layout="fill" objectFit="contain" />
       </div>
       <div className="absolute bottom-[138px] flex w-full justify-center">
         <CtaButton label="Get A Trail" />
       </div>
       <div className="absolute bottom-[230px] left-[50px] h-[94px] w-[112px]">
-        <Image
-          src="/Images/Homepage/calender.png"
-          layout="fill"
-          objectFit="contain"
-        />
+        <Image src="/calender.png" layout="fill" objectFit="contain" />
       </div>
     </div>
   )
@@ -88,7 +80,7 @@ const DesktopView = () => {
       <div className="relative flex basis-1/2 items-end">
         <div className="relative h-[80vh] w-full">
           <Image
-            src="/Images/Homepage/surprised-happy-girl-desktop.png"
+            src="/surprised-happy-girl-desktop.png"
             layout="fill"
             objectFit="contain"
           />

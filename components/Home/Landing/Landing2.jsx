@@ -31,7 +31,7 @@ const MobileView = () => {
       </div>
       <div className="relative min-h-[70vh]">
         <Image
-          src="/Images/Homepage/woman-sitting-mobile.png"
+          src="/woman-sitting-mobile.png"
           layout="fill"
           objectFit="contain"
         />
@@ -80,7 +80,7 @@ const DesktopView = () => {
       <div className="relative flex basis-1/2 items-end">
         <div className="relative h-[80vh] w-full">
           <Image
-            src="/Images/Homepage/surprised-happy-girl-desktop.png"
+            src="/surprised-happy-girl-desktop.png"
             layout="fill"
             objectFit="contain"
           />
