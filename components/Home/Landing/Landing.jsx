@@ -26,7 +26,7 @@ const MobileView = () => {
       </div>
       <div className="relative min-h-[70vh]">
         <Image
-          src="/Images/Homepage/surprised-happy-girl-mobile.png"
+          src="/surprised-happy-girl-mobile.png"
           layout="fill"
           objectFit="contain"
         />
